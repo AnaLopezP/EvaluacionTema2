@@ -1,6 +1,6 @@
 #primer codigo:
-numero = 7/0
 try:
+    numero = 7/0
     print(numero)
 
 except ZeroDivisionError:
