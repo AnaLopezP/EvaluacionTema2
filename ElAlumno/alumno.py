@@ -22,10 +22,12 @@ class Alumno:
             print("El alumno " + str(self.nombre) +" ha aprobado")
         else:
             print("El alumno " + str(self.nombre) + " ha suspendido")
-
+    def __str__(self):
+        return("Alumno con nombre: " + str(self.nombre) + " y nota: " + str(self.nota))
     
 
 alumno1 = Alumno("Pedro", 6)
 alumno1.calificacion()
+print(alumno1)
 
             
