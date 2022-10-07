@@ -6,3 +6,6 @@ class Producto:
         self.tipo = tipo
         print("El producto se ha creado con exito")
     
+    def __str__(self):
+        return("Producto con código: " + str(self.codigo) + ", nombre: "+ str(self.nombre) + ", precio: " + str(self.precio) + " y tipo: " + str(self.tipo))
+        
