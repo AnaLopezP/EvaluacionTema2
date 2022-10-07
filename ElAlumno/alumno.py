@@ -26,16 +26,6 @@ class Alumno:
         return("Alumno con nombre: " + str(self.nombre) + " y nota: " + str(self.nota))
     
 
-alumno1 = Alumno("Pedro", 3)
-alumno1.calificacion()
-print(alumno1)
 
-alumno2 = Alumno("Ana", 10)
-alumno2.calificacion()
-print(alumno2)
-
-alumno3 = Alumno("Chris", 7)
-alumno3.calificacion()
-print(alumno3)
 
             
