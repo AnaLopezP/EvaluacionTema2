@@ -32,10 +32,3 @@ class Producto:
 
     def __str__(self):
         return("Producto con código: " + str(self.codigo) + ", nombre: "+ str(self.nombre) + ", precio: " + str(self.precio) + " y tipo: " + str(self.tipo))
-
-
-producto = Producto(1234, "MAXIDENT", 45, "Album")
-print(producto)
-print("Vpy a modificar el producto creado")
-producto = Producto(2345, "MAXIDENT - Skz", 45, "Album")
-print(producto)
