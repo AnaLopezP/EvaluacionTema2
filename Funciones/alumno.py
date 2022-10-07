@@ -4,4 +4,16 @@ class Alumno():
         self.nota = nota
         print("El alumno ha sido creado con éxito.")
     
+    def getnombre(self):
+        return self.nombre
+
+    def setnombre(self,nombre):
+        self.nombre = nombre
+
+    def getnota(self):
+        return self.nota
+
+    def setnota(self,nota):
+        self.nota = nota
+
     
