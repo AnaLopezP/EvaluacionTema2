@@ -17,7 +17,6 @@ class Alumno:
         self.nota = nota
 
     def calificacion(self):
-        #nota = input("Introduzca una nota de alumno: ")
         if self.nota >= 5:
             print("El alumno " + str(self.nombre) +" ha aprobado")
         else:

@@ -6,6 +6,8 @@ class Vehiculo():
 
     def __str__(self):
         return "color {}, {} ruedas".format( self.color, self.ruedas )
+    
+    
 
 class Coche(Vehiculo):
     def __init__(self, color, ruedas, velocidad, cilindrada):
@@ -16,5 +18,4 @@ class Coche(Vehiculo):
     def __str__(self):
         return Vehiculo.__str__(self) + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada)
 
-coche1 = Coche("Blanco", "Michelin", 40, 90)
-print(coche1)
+     
