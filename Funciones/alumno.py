@@ -1,7 +1,4 @@
-from typing_extensions import Self
-
-
-class Alumno():
+class Alumno:
     def __init__(self, nombre, nota):
         self.nombre = nombre
         self.nota = nota
@@ -19,13 +16,16 @@ class Alumno():
     def setnota(self,nota):
         self.nota = nota
 
-    def calificacion(nota):
-        nota = input("Introduzca una nota de alumno: ")
-        if nota >= 5:
-            print("El alumno ha aprobado")
+    def calificacion(self):
+        #nota = input("Introduzca una nota de alumno: ")
+        if self.nota >= 5:
+            print("El alumno " + str(self.nombre) +" ha aprobado")
         else:
-            print("El alumno ha suspendido")
+            print("El alumno " + str(self.nombre) + " ha suspendido")
 
     
+
+alumno1 = Alumno("Pedro", 6)
+alumno1.calificacion()
 
             
