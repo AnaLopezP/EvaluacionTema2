@@ -16,4 +16,9 @@ class Alumno():
     def setnota(self,nota):
         self.nota = nota
 
-    
+    def calificacion(self, nombre, nota):
+        if self.nota >= 5:
+            print("El alumno ha aprobado")
+        else:
+            print("El alumno ha suspendido")
+            
