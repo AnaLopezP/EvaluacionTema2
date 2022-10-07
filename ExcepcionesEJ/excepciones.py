@@ -14,11 +14,10 @@ paises["alemania"]
 #cuarto codigo:
 resultado = "2" + 10
 
-class dividir_exception(BaseException):
-    def __init__(self, mensaje):
-        self.mensaje = mensaje
-
-    def get_mensaje(self):
-        return self.mensaje
-
     
+try:
+    print(numero)
+
+except ZeroDivisionError:
+    print("No se puede dividir entre 0")
+
